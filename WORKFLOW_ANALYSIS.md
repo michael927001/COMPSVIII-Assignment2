@@ -3,6 +3,8 @@
 **1. What triggers this workflow to run?**  
 The workflow runs whenever code is pushed to the **main** branch. The `on: push: branches: [ "main" ]` section defines this trigger.
 
+This workflow helped me understand real collaboration steps, especially how pull requests organize code changes for review.
+
 **2. What are the four main steps this workflow performs?**
 - Checkout the repository code
 - Set up the GitHub Pages environment
